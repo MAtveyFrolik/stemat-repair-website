@@ -29,8 +29,8 @@
 
 ## Демо
 
-[Открыть сайт](https://твоё-имя.github.io/stemat-repair-website/)  
-(ссылка появится после включения GitHub Pages)
+[Открыть сайт](https://MAtveyFrolik.github.io/stemat-repair-website/)  
+
 
 ## Как запустить локально
 
