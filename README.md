@@ -29,7 +29,7 @@
 
 ## Демо
 
-[Открыть сайт](https://MAtveyFrolik.github.io/stemat-repair-website/)  
+[Открыть сайт](https://matveyfrolik.github.io/stemat-repair-website/)  
 
 
 ## Как запустить локально
