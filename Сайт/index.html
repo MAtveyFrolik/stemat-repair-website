@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт промышленного оборудования</title>
+    <meta name="description" content="Срочный ремонт лазерной резки, обслуживание гибочного оборудования, ремонт ЧПУ, сервис токарного станка, ремонт компрессора, лазерная сварка">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#1e40af',
+                        accent: '#f59e0b'
+                    }
+                }
+            }
+        }
+    </script>
+    
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+    <custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center bg-gradient-to-b from-gray-900 to-gray-800 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="http://static.photos/industry/1200x630/5" alt="Industrial equipment" class="w-full h-full object-cover opacity-20">
+        </div>
+        <div class="container mx-auto px-6 z-10">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Срочный ремонт промышленного оборудования.<br>
+                    <span class="text-accent">Профессиональная диагностика. </span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                    Комплексный сервис по ремонту и обслуживанию: лазерные станки, гибочные станки с ЧПУ, обрабатывающие центры, токарные станки с ЧПУ, компрессоры и системы лазерной сварки. Вернём ваш цех к работе в кратчайшие сроки.
+                </p>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+                    <div class="flex items-center">
+                        <i data-feather="check-circle" class="text-accent mr-2"></i>
+                        <span>Ремонт станков лазерной резки</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i data-feather="check-circle" class="text-accent mr-2"></i>
+                        <span>Обслуживание гибочного оборудования</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i data-feather="check-circle" class="text-accent mr-2"></i>
+                        <span>Ремонт обрабатывающих центров (ЧПУ)</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i data-feather="check-circle" class="text-accent mr-2"></i>
+                        <span>Диагностика и ремонт токарных станков</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i data-feather="check-circle" class="text-accent mr-2"></i>
+                        <span>Сервис лазерной сварки</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i data-feather="check-circle" class="text-accent mr-2"></i>
+                        <span>Ремонт и ТО промышленных компрессоров</span>
+                    </div>
+                </div>
+
+                <div class="space-y-3">
+                    <p class="text-accent font-medium">Получите точную смету сегодня.</p>
+                <a href="tel:+7 (916) 570-30-42" class="bg-accent hover:bg-yellow-600 text-gray-900 font-bold py-4 px-8 rounded-lg transition duration-300 transform hover:scale-105 inline-block">
+                    Подать заявку: +7 (916) 570-30-42
+                </a>
+</div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Мы ремонтируем все виды промышленного оборудования</h2>
+                <p class="max-w-2xl mx-auto text-gray-300">
+                    Профессиональный ремонт и обслуживание промышленного оборудования с гарантией качества
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-accent mb-4">
+                        <i data-feather="activity" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Станки лазерной резки</h3>
+                    <p class="text-gray-300">Ремонт и обслуживание лазерных станков любого типа и производителя</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-accent mb-4">
+                        <i data-feather="package" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Гибочные станки с ЧПУ</h3>
+                    <p class="text-gray-300">Ремонт гибочных, листогибов и профилегибов</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-accent mb-4">
+                        <i data-feather="zap" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Оборудование для лазерной сварки</h3>
+                    <p class="text-gray-300">Ремонт лазерных сварочных аппаратов и сопутствующего оборудования</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-accent mb-4">
+                        <i data-feather="cpu" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Обрабатывающие центры с ЧПУ</h3>
+                    <p class="text-gray-300">Диагностика и ремонт фрезерных, токарных и гравировальных станков с ЧПУ</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-accent mb-4">
+                        <i data-feather="rotate-cw" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Токарные станки</h3>
+                    <p class="text-gray-300">Ремонт токарных станков всех типов</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-accent mb-4">
+                        <i data-feather="wind" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Промышленные компрессоры</h3>
+                    <p class="text-gray-300">Ремонт и ТО винтовых, поршневых компрессоров и осушителей воздуха</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-gray-400 mb-6">И многие другие виды оборудования. Не нашли свою технику в списке? Позвоните нам!</p>
+                <a href="tel:+79165703042" class="bg-accent hover:bg-yellow-600 text-gray-900 font-bold py-4 px-8 rounded-lg transition duration-300 transform hover:scale-105 inline-block">
+                    Подать заявку: +7 916 570 30 42
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Why Us Section -->
+    <section id="why-us" class="py-20 bg-gray-800">
+<div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Мы не просто ремонтируем.<br>Мы гарантируем результат.</h2>
+                <p class="max-w-2xl mx-auto text-gray-300">
+                    Наша команда сертифицированных инженеров с опытом работы более 15 лет обладает глубокими знаниями устройства всего парка современного промышленного оборудования. Мы используем оригинальные запчасти и современные диагностические инструменты, чтобы устранить неисправность быстро и навсегда.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-700 p-6 rounded-xl hover:bg-gray-600 transition duration-300">
+                    <div class="text-accent mb-4">
+                        <i data-feather="clock" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Экспресс-диагностика на объекте</h3>
+                    <p class="text-gray-300">Выезд специалиста в течение 24 часов.</p>
+                </div>
+
+                <div class="bg-gray-700 p-6 rounded-xl hover:bg-gray-600 transition duration-300">
+                    <div class="text-accent mb-4">
+                        <i data-feather="shield" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Честная гарантия</h3>
+                    <p class="text-gray-300">Предоставляем официальную гарантию до 24 месяцев на все виды работ и запчасти.</p>
+                </div>
+
+                <div class="bg-gray-700 p-6 rounded-xl hover:bg-gray-600 transition duration-300">
+                    <div class="text-accent mb-4">
+                        <i data-feather="dollar-sign" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Прозрачная цена</h3>
+                    <p class="text-gray-300">Сразу озвучиваем стоимость работ. Никаких скрытых доплат по окончании ремонта.</p>
+                </div>
+
+                <div class="bg-gray-700 p-6 rounded-xl hover:bg-gray-600 transition duration-300">
+                    <div class="text-accent mb-4">
+                        <i data-feather="settings" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Полный цикл услуг</h3>
+                    <p class="text-gray-300">От диагностики и поставки запчастей до ремонта и пост-гарантийного обслуживания.</p>
+                </div>
+            </div>
+            <div class="text-center mt-16">
+                <p class="text-accent font-medium mb-4 text-xl">Не теряйте прибыль из-за простоя.</p>
+                <a href="tel:+79165703042" class="bg-accent hover:bg-yellow-600 text-gray-900 font-bold py-4 px-8 rounded-lg transition duration-300 transform hover:scale-105 inline-block">
+                    Подать заявку: +7 916 570 30 42
+                </a>
+            </div>
+</div>
+    </section>
+
+    <custom-footer></custom-footer>
+    
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
